@@ -1,21 +1,21 @@
 # Add  code here!
 def prime?(num)
   if num == 1
-    false
+    return false
   end
 
   if num == 2
-    true
+    return true
   end
 
   if num > 2
     (3...num).each do |x|
       if num % x == 0
-        false
+        return false
       else
-        true
+        return true
       end
     end
   end
-  true
+  return true
 end
