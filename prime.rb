@@ -12,10 +12,10 @@ def prime?(num)
     (2...num).each do |x|
       if num % x != 0
         return true
-      # else
-      #   return true
+      else
+        return false
       end
     end
   end
-  return false
+  # return false
 end
