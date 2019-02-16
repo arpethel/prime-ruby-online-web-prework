@@ -21,5 +21,5 @@ def prime?(num)
       end
     end
   end
-  return true
+  return false
 end
