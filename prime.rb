@@ -8,7 +8,7 @@ def prime?(num)
     return true
   end
 
-  if num > 2
+  if num > 2 || num < -2
     (2...num).each do |x|
       if num % x != 0
         return true
