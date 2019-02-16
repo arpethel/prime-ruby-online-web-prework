@@ -9,7 +9,7 @@ def prime?(num)
   end
 
   if num > 2
-    (3...num).each do |x|
+    (3..num).each do |x|
       if num % x == 0
         return false
       # else
