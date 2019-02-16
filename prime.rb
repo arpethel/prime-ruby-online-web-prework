@@ -10,7 +10,7 @@ def prime?(num)
 
   if num > 2
     (3...num).each do |x|
-      if num % x == 0
+      if num % x != 0
         return false
       # else
       #   return true
