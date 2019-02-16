@@ -12,8 +12,8 @@ def prime?(num)
     (3...num).each do |x|
       if num % x == 0
         return false
-      else
-        return true
+      # else
+      #   return true
       end
     end
   end
