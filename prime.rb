@@ -17,5 +17,5 @@ def prime?(num)
       end
     end
   end
-  true  
+  true
 end
